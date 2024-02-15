@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <br><br>
+    <form action="/action.php">
+        <div class="form">
+            <label for="fname">First Name:</label>
+            <input type="text" placeholder="Enter Your First Name" id="fname" class="form-control">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" placeholder="Enter Your Last Name" id="lname" class="form-control">
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="text" placeholder="Enter Your Email" id="Email">
+            <br><br>
+            <label for="Mobile">Mobile:</label>
+            <input type="text" placeholder="Only 10 digits allowed" maxlength="10" id="Mobile">
+            <br><br>
+            <label>Gender:</label>
+            <label for="male">
+            <input type="radio"  id="male" name="Gender">Male
+            </label>
+            <label for="female">
+            <input type="radio"  id="female" name="Gender">Female
+            </label>
+            <br><br>
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br>
+            <label for="adres">Address:</label>
+            <textarea type="text" rows="5" cols="70" id="adres"></textarea>
+            <br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city">
+            <br><br>
+            <label for="areapin">Area PIN:</label>
+            <input type="pin" id="areapin">
+            <br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state">
+            <br><br>
+            <label>Qualification:</label>
+            <select name="Select Qualification">
+                <option value="Select Qualification">Select Qualification</option>
+                <option value="Matric">Matric</option>
+                <option value="FSC">Fsc</option>
+                <option value="BS">BS</option>
+            </select>
+            <br><br> 
+            <label>Specialization:</label>
+            <div class="spec">
+                <label for="Computer Science">
+                <input type="checkbox" id="Computer Science" name="Specialization">Computer Science
+                </label>
+                <br>
+                <label for="Information Technology">
+                <input type="checkbox" id="Information Technology" name="Specialization">Information Technology
+                </label>
+                <br>
+                <label for="Computer Architecture">
+                <input type="checkbox" id="Computer Architecture" name="Specialization">Computer Architecture
+                </label>
+                <br>
+                <label for="TeleCommunication">
+                <input type="checkbox" id="TeleCommunication" name="Specialization">Tele Communication
+                </label>
+            </div>
+            <br><br>
+            <label for="pswd">Password:</label>
+            <input type="password" id="pswd" placeholder="Enter Your password">
+            <br><br>
+            <button type="Registered">Registered</button>
+        </form>
+    </div> 
+</body>
+</html>

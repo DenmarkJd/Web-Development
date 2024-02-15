@@ -1,0 +1,33 @@
+h2{
+    color: red;
+    padding-left: 900px;
+    margin: 0%;
+    background-color: white;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: Arial;
+    height: 6px;
+}
+form{
+    background-color: #ebe9f3;
+}
+label{
+    width: 140px;
+    display: inline-block;
+}
+input{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.spec{
+    margin-left: 139px;
+}
+Button{
+    color: white;
+    background-color: green;
+    padding: 7px;
+    border-radius: 4px;
+    border-color: green;
+    border-width: 0px;
+}
